@@ -126,3 +126,32 @@ nav {
 #contact {
     color: #fff;
 }
+.header {
+    text-align: center;
+}
+.portrait {
+    display: flex;
+    align-items: left;
+}
+
+.portrait img {
+    width: 150px; 
+    height: 150px; 
+   /* border-radius: 70%; could make it a circular pic, decided square looks better*/
+    border: 2px solid #fff; 
+    margin-right: 20px; 
+}
+
+.portrait-pic {
+    text-align: right;
+}
+
+.portrait h1 {
+    margin: 0;
+    font-size: 24px; 
+}
+
+.portrait p {
+    margin: 0;
+    font-size: 16px; 
+}
